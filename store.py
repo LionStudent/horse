@@ -58,7 +58,8 @@ def searchTextData(name):
     db.close()
 
     return retval
-    def addImageData(imageFilename):
+   
+def addImageData(imageFilename):
 
     cloudinary.config(
 

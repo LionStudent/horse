@@ -47,7 +47,6 @@ def welcome():
 
 '''
 
-
 @app.route('/receiveAllPosts', methods=['GET'])
 
 def getPosts():

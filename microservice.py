@@ -56,7 +56,7 @@ def getPosts():
     posts = store.searchTextData(name)
 
     return jsonify(posts)
-    @app.route('/sendSinglePost', methods=['POST'])
+@app.route('/sendSinglePost', methods=['POST'])
 
 def sendSinglePost():
 
